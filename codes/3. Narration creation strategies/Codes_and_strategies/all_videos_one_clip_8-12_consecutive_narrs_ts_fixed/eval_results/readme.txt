@@ -1,1 +1,0 @@
-I started running the pretrain code again, so it might be the problem
