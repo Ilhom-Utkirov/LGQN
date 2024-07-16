@@ -18,5 +18,11 @@ LGQN: LLM-Generated Queries from Narrations
 > analyze the impact of different training components on the model’s performance, providing valuable insights into the
 > effectiveness of our approach.
 > 
+![main_struct_v2.drawio.png](..%2F..%2F..%2F..%2FUsers%2Finspi%2FOneDrive%2FDesktop%2Fimages%2Fprocessed%2Fmain_struct_v2.drawio.png)
+ The proposed architecture for LGQN involves a data-augmentation strategy where textual narrations and corresponding video
+spans are used. Narrations are processed through Llama 3 to generate queries. These queries are then aligned with the corresponding
+video segments. Both the video segments and generated queries are passed through a query-guided highlighting model(see left). The
+model predicts the temporal windows (see right) where the query-related activity occurs, enhancing the training data and improving model
+performance .
 
 
